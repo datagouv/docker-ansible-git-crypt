@@ -12,6 +12,7 @@ RUN apt install --yes --no-install-suggests --no-install-recommends python3-pip
 RUN apt install --yes --no-install-suggests --no-install-recommends python3-setuptools
 RUN apt clean
 
-RUN pip3 install ansible==2.9
+RUN pip3 install --upgrade pip
+RUN pip3 install ansible==2.9.9
 
 RUN install -d -m 700 /root/.ssh
