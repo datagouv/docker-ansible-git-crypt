@@ -1,6 +1,6 @@
-FROM debian:buster
+FROM python:3.10-bullseye
 
-LABEL org.label-schema.vcs-url="https://github.com/sdelafond/docker-ansible-git-crypt" \
+LABEL org.label-schema.vcs-url="https://github.com/etalab/docker-ansible-git-crypt" \
       org.label-schema.schema-version="1.0"
 
 RUN apt update -q
