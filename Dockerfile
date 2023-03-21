@@ -14,7 +14,7 @@ RUN apt clean
 
 RUN pip3 install --upgrade pip
 RUN pip3 install ansible-lint==4.1.0
-RUN pip3 install ansible==6.3.0
+RUN pip3 install ansible==7.3.0
 RUN pip3 install flake8==3.7.5
 RUN pip3 install invoke==1.2.0
 RUN pip3 install jmespath==0.9.3
