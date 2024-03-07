@@ -15,7 +15,8 @@ RUN apk add --no-cache build-base && \
     apk add --no-cache openssh && \
     apk add --no-cache git && \
     apk add --no-cache git-crypt && \
-    apk add --no-cache gnupg
+    apk add --no-cache gnupg && \
+    apk add --no-cache bash
 RUN apk cache clean
 
 # install Python from source
