@@ -39,7 +39,7 @@ RUN pip3 install --upgrade pip && \
     pip3 install ovh==1.1.0 && \
     pip3 install passlib==1.7.4 && \
     pip3 install requests==2.31.0 && \
-    pip3 install openstacksdk==0.61.0 && \
+    pip3 install openstacksdk==3.0.0 && \
     pip3 install python-nomad==2.0.0 && \
     pip3 install docker==6.1.3
 
