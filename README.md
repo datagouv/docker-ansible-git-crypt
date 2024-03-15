@@ -5,7 +5,7 @@ repository.
 
 Build image:
 ```
-$ ./build-and-push.sh
+$ ./scripts/build-and-push.sh
 ```
 
 Example of how to use this docker image in GitLab CI with a git-crypt'ed

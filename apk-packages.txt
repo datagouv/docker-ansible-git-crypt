@@ -1,0 +1,9 @@
+build-base
+zlib-dev
+openssl-dev
+libffi-dev
+openssh
+git
+git-crypt
+gnupg
+bash
