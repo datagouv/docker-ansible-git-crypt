@@ -10,3 +10,4 @@ git-crypt
 gnupg
 bash
 jq
+minio-client
