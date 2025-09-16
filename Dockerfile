@@ -1,10 +1,9 @@
-FROM docker:27.3.1-alpine3.20
+FROM docker:28.4.0-alpine3.22
 
 LABEL org.label-schema.vcs-url="https://github.com/datagouv/docker-ansible-git-crypt" \
       org.label-schema.schema-version="1.0"
 
 ENV PIP_BREAK_SYSTEM_PACKAGES=1
-ENV PYTHON_VERSION=3.12.7
 ENV TOFU_VERSION=1.8.4
 
 COPY apk-packages.txt requirements.txt scripts/install-python-from-source.sh scripts/install-tofu.sh /opt/
