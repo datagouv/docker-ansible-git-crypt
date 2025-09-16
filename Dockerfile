@@ -12,9 +12,6 @@ COPY apk-packages.txt requirements.txt scripts/install-python-from-source.sh scr
 RUN apk update -q
 RUN xargs -a /opt/apk-packages.txt apk add --no-cache
 
-# install Python from source
-RUN /opt/install-python-from-source.sh $PYTHON_VERSION
-
 # install tofu
 RUN /opt/install-tofu.sh $TOFU_VERSION
 
