@@ -4,7 +4,7 @@ LABEL org.label-schema.vcs-url="https://github.com/datagouv/docker-ansible-git-c
       org.label-schema.schema-version="1.0"
 
 ENV PIP_BREAK_SYSTEM_PACKAGES=1
-ENV TOFU_VERSION=1.8.4
+ENV TOFU_VERSION=1.10.6
 
 COPY apk-packages.txt requirements.txt scripts/install-python-from-source.sh scripts/install-tofu.sh /opt/
 
