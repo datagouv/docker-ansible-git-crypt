@@ -1,5 +1,6 @@
 python3
 py3-pip
+python3-dev
 build-base
 zlib-dev
 openssl-dev
