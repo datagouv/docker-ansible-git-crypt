@@ -12,4 +12,3 @@ gnupg
 bash
 jq
 minio-client
-wireguard-tools
