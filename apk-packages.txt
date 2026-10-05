@@ -11,4 +11,4 @@ git-crypt
 gnupg
 bash
 jq
-minio-client
+rclone
